@@ -1,0 +1,41 @@
+body {
+  background-color: aquamarine;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px #8a14f1;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 3px;
+  width: 80%;
+}
+
+button {
+  background-color: rgb(3, 3, 3);
+  color: white;
+  border-radius: 10px;
+}
+
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
